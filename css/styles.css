@@ -742,7 +742,13 @@ img {
   overflow: hidden;
 }
 
-.portfolio-list-item:hover .overlay-portfolio {
+.portfolio-list-item .link:hover .overlay-portfolio {
+  transform: translateY(0%);
+  opacity: 1;
+  visibility: visible;
+}
+
+.portfolio-list-item .link:focus .overlay-portfolio {
   transform: translateY(0%);
   opacity: 1;
   visibility: visible;
